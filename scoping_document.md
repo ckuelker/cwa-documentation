@@ -141,7 +141,7 @@ the app have different needs.
 
 4. **Infection case**
 
-   If an app user tests positive for SARS-COV-2 infection, they can voluntarily
+   If an app user tests positive for SARS-CoV-2 infection, they can voluntarily
    publish the pseudonymized warn IDs saved in their app. That way, other app
    users can use their smartphones to find out whether they have been exposed
    to the infected user.
@@ -185,7 +185,7 @@ The requirements the Corona-Warn-App must satisfy, and which define its
 functional scope, are formulated below in the usual format of a user story,
 unless specified otherwise:
 
-“As &lt;stakeholder&gt;, I want &lt;goal&gt;, so that &lt;reason&gt;.“_
+"As &lt;stakeholder&gt;, I want &lt;goal&gt;, so that &lt;reason&gt;."
 
 The corresponding acceptance criteria supplement the specification of the
 requirements by defining the conditions that the software must fulfill to
@@ -233,7 +233,7 @@ satisfy user needs..
 <!-- markdownlint-disable-->
 | # of user story ID | User story | Acceptance criteria |
 |-----------------|------------|--------------------|
-| E05.01 | As the RKI, I want only positive tested users to trigger a one-time warning, so that I can prevent misuse. | 1. Only positive tests can trigger a warning. This is ensured by the verification server and the hotline for the phone TAN procedure.<hr/>2. A warning can only be triggered once for each test. |
+| E05.01 | As the RKI, I want only positively tested users to trigger a one-time warning, so that I can prevent misuse. | 1. Only positive tests can trigger a warning. This is ensured by the verification server and the hotline for the phone TAN procedure.<hr/>2. A warning can only be triggered once for each test. |
 | E05.02 | As an app user, in case of a positive test result, I want to receive information about the illness and the necessary next steps, so that I can adapt my behavior to RKI recommendations. | 1. A notification merely informs you that there is news in the app. The test result itself can only be seen in the app. <hr/>2. An info text with defined content is displayed in the app (for example, information about the outcome of the test result, information about necessary measures, a hotline number). |
 <!-- markdownlint-enable-->
 ### Triggering a Warning
@@ -257,7 +257,7 @@ satisfy user needs..
 <!-- markdownlint-disable-->
 | # of user story ID | User story | Acceptance criteria |
 |-----------------|------------|--------------------|
-| E08.01 | As an app user, I want to be able to contact a hotline, so that I can resolve any technical problems with the app. | 1. The phone number of the technical hotline is stored in the app. |
+| E08.01 | As an app user, I want to be able to contact a hotline, so that I can resolve any technical problems with the app. | 1. The phone number of the technical hotline is available in the app. |
 <!-- markdownlint-enable-->
 ### Accessibility
 <!-- markdownlint-disable-->
